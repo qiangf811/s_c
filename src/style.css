@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  color: #f5529b;
+}
+
+.link-wrapper {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  margin-top: -30px;
+  width: 100px;
+}
+
+.item {
+  display: block;
+  border: 1px solid #f5529b;
+  color: #f5529b;
+  padding: 10px;
+  text-decoration: inherit;
+}
+
+.item.router-link-active {
+  background: #f5529b;
+  color: #fff;
+}
+
+.item:last-of-type {
+  border-top: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #f5529b;
+    background-color: #ffffff;
+  }
+}
+
+
+.content-text {
+  width: 700px;
+  text-align: left;
+  text-indent: 30px;
+}
